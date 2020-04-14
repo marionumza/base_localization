@@ -1,3 +1,10 @@
+echo==============================
+echo Va a eliminar la carpeta
+echo sources y a crearla de nuevo
+echo ¿Esta Seguro?
+echo [ENTER] aceptar
+echo [CRTL+C] cancelar
+echo==============================
 rm -rf //home/odoo/odoo/11/sources
 mkdir /home/odoo/odoo/11/sources
 cd /home/odoo/odoo/11/sources
