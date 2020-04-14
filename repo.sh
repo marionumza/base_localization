@@ -5,6 +5,8 @@ echo ¿Esta Seguro?
 echo [ENTER] aceptar
 echo [CRTL+C] cancelar
 echo==============================
+sleep -30s
+echo Esperar 30 segundos...
 rm -rf //home/odoo/odoo/11/sources
 mkdir /home/odoo/odoo/11/sources
 cd /home/odoo/odoo/11/sources
