@@ -65,3 +65,7 @@ git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/pu
 git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/reporting-engine.git ingadhoc-reporting-engine
 git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/stock.git ingadhoc-stock
 git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/website.git ingadhoc-website
+cd /home/odoo/odoo/11/sources
+find . -name "oca_dependencies.txt" -type f -delete
+cd /home/odoo/odoo/11/
+./maintainer-quality-tools/travis/clone_oca_dependencies sources/ .
