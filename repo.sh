@@ -69,3 +69,4 @@ cd /home/odoo/odoo/11/sources
 find . -name "oca_dependencies.txt" -type f -delete
 cd /home/odoo/odoo/11/
 ./maintainer-quality-tools/travis/clone_oca_dependencies sources/ .
+find /home/odoo/odoo/11/sources/ -mindepth 1 -maxdepth 1 -type d | sort | tr '\n' ','
